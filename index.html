@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Block Blast</title>
+  <link rel="stylesheet" href="styles.css" />
+  
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#3a3a3a" />
+  <link rel="icon" href="icon-192.png" type="image/png" />
+</head>
+<body>
+  <h1>Block Blast</h1>
+  <div id="scoreboard">
+    Puntos: <span id="puntos">0</span> |
+    Nivel: <span id="nivel">1</span> |
+    Meta: <span id="meta">100</span>
+  </div>
+  <div id="tablero"></div>
+  <div id="gameover" style="display:none;">
+    <h2>¡Juego Terminado!</h2>
+    <p>Puntaje Final: <span id="puntaje-final">0</span></p>
+    <p>Máximo Nivel: <span id="top-nivel">0</span></p>
+    <button id="reiniciar">Reiniciar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
